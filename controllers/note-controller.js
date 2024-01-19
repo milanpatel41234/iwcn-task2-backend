@@ -1,4 +1,4 @@
-const Note = require('../modals/note-modal');
+const Note = require('../util/database').note;
 
 // add note
 const addNote = async (req,res)=>{
